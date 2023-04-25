@@ -8,7 +8,7 @@
   "resources": {
     "assembly": {
       "BibliotecaPublica.Core.dll": "sha256-44cECk8G3MWa3ymQiE1XlF8WfsZJYBSnCik4fX0y2I4=",
-      "DevTools.dll": "sha256-lwsSfi1t4ZpkYnwXhJOjQ32LJUk6MJnZKm2kGxFN3Mg=",
+      "DevTools.dll": "sha256-atRuprif6g6l\/9goelwP3fAwhEQb+a13BiEKPbYkUDQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-Yb208Svjveug2r8ZPQQ0LIq7M9lraZAjMV9PtumK5zE=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-CQuaWrSf9O4PtndknsO4wfnA0I\/ky0YyY8JXhqrKtcc=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-jZLGUNi\/PCnw9q3fv9CISkfeqzfFrPm143LIAsZYEO4=",
