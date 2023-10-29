@@ -1,1 +1,33 @@
-﻿@layout InitialPageSectionLayout
+﻿@page "/encrypt"
+@layout InitialPageSectionLayout
+@inherits ComponentBase
+
+<RadzenStack>
+    <div class="rz-p-3 rz-text-align-center">
+        <RadzenRadioButtonList @bind-Value=_provider Data="@(EnumHelper.EnumToEnumerable<CryptProvider>())" TextProperty="Description" ValueProperty="Value" TValue="CryptProvider" class="mb-4" />
+        <RadzenRadioButtonList @bind-Value=_crypt TValue="bool">
+            <Items>
+                <RadzenRadioButtonListItem Text="Criptografar" Value="true" />
+                <RadzenRadioButtonListItem Text="Descriptografar" Value="false" />
+            </Items>
+        </RadzenRadioButtonList>
+    </div>
+
+    <RadzenStack Orientation="Orientation.Horizontal">
+        <RadzenStack>
+            <RadzenText Text="Palavra chave" TextStyle="TextStyle.H6" TagName="TagName.Auto" />
+            <RadzenTextBox @bind-Value=_keyWord Placeholder="Chave utilizada..." class="w-100" />
+
+            <RadzenText Text="Entrada" TextStyle="TextStyle.H6" TagName="TagName.Auto" />
+            <RadzenTextArea @bind-Value=_input Placeholder="Informe o texto a ser processado..." class="w-100" />
+
+            <RadzenButton Text="Executar" Click=OnClickButton ButtonStyle="ButtonStyle.Info" />
+        </RadzenStack>
+
+        @if ( _output.TemConteudo() )
+        {
+            <RadzenText Text="Saída" TextStyle="TextStyle.H6" TagName="TagName.Auto" />
+            <RadzenText Text=@_output TextStyle="TextStyle.Body1" TagName="TagName.Auto" />
+        }
+    </RadzenStack>
+</RadzenStack>

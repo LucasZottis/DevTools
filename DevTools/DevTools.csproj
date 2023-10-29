@@ -9,13 +9,18 @@
 
   <ItemGroup>
     <Compile Remove=".github\**" />
+    <Compile Remove="Components\**" />
     <Content Remove=".github\**" />
+    <Content Remove="Components\**" />
     <EmbeddedResource Remove=".github\**" />
+    <EmbeddedResource Remove="Components\**" />
     <None Remove=".github\**" />
+    <None Remove="Components\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BibliotecaPublica.Core" Version="7.1.2.1" />
+    <PackageReference Include="BibliotecaPublica.Core" Version="7.1.4.1" />
+    <PackageReference Include="BibliotecaPublica.Utils" Version="7.5.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.4" PrivateAssets="all" />
     <PackageReference Include="Radzen.Blazor" Version="4.19.0" />
@@ -23,10 +28,6 @@
 
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Components\" />
   </ItemGroup>
 
 </Project>
