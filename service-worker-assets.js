@@ -105,7 +105,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-X5ftv+5iebF39jwRp00PL\/XkvVC71QFZhopLbjDBq4I=",
+      "hash": "sha256-o7O6PSr9\/LJaMipEQSKUrcASz1JzBpGmQ91vnKOpBH8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -121,7 +121,7 @@
       "url": "_framework\/BibliotecaPublica.Utils.dll"
     },
     {
-      "hash": "sha256-y055rrkGJxKldwOeeoF\/yQny3Q72JSVel9+pTVXzKx8=",
+      "hash": "sha256-kU+iY+X79FwgLvR1KwRscsrcGX3K7NqEa9ERGmjUigM=",
       "url": "_framework\/DevTools.dll"
     },
     {
@@ -505,7 +505,7 @@
       "url": "_framework\/System.Xml.XmlSerializer.dll"
     },
     {
-      "hash": "sha256-xVkUTgo2+IcNvRCvHBSQkfyiv0rumV5\/RtSkFmJsrAE=",
+      "hash": "sha256-zX46Npb4Zl6kwFz81jDVtseEWvh1PynOp+nq6o1W2eI=",
       "url": "DevTools.styles.css"
     },
     {
@@ -641,5 +641,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "lD3I+CVg"
+  "version": "chRWCoXI"
 };
